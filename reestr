@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.php]
+@="phpfile"
+"Content Type"="application/php"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\phpfile]
+@="PHP Script"
+"EditFlags"=dword:00000000
+"BrowserFlags"=dword:00000008
+"AlwaysShowExt"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\phpfile\DefaultIcon]
+@="C:\\php\\php-win.exe,0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\phpfile\shell]
+@="Open"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\phpfile\shell\Open]
+@="&Open"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\phpfile\shell\Open\command]
+@="\"C:\\php\\php.exe\" -f \"%1\" -- %~2"
